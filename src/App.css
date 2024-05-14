@@ -1,0 +1,30 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown-select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+  appearance: none; /* Hide default arrow in some browsers */
+}
+
+.dropdown-select:focus {
+  outline: none;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover,
+.dropdown-option.active {
+  background-color: #f0f0f0;
+}
